@@ -4,7 +4,7 @@ def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Assalomu alaykum, botga xush kelibsiz!")
 
 def main():
-    updater = Updater(token="TOKEN", use_context=True)
+    updater = Updater(token="6176149316:AAHY2J8lXvRZFjXFwLgvVhFv-5HXicvhErE", use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     updater.start_polling()
